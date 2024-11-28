@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator-UI</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      #cointainer {
+        border: 5px solid rgb(173, 110, 190);
+        background-color: darkgray;
+        width: 300px;
+        height: 550px;
+        display: grid;
+        box-shadow: 0px 0px 100px;
+        border-radius: 30px;
+        grid-template-columns: repeat(auto-fill, minmax(54px, 1fr));
+        column-gap: 10px;
+        text-align: center;
+        row-gap: 10px;
+        padding: 5px;
+        margin: auto;
+      }
+      #cointainer div {
+        border: 1px solid chocolate;
+        box-shadow: 0px 0px 2px;
+      }
+      #main {
+        grid-column: 1/5;
+        grid-row: 1/16;
+        background-color: white;
+        border-radius: 30px;
+      }
+      #m1,
+      #m2,
+      #m3,
+      #m4,
+      #m8,
+      #m16,
+      #m12 {
+        background-color: darkkhaki;
+      }
+      #m5,
+      #m6,
+      #m7,
+      #m9,
+      #m10,
+      #m11,
+      #m13,
+      #m14,
+      #m15,
+      #m18,
+      #m19 {
+        background-color: azure;
+      }
+
+      body {
+        background-color: rgb(55, 54, 54);
+      }
+      #m12:hover {
+        background-color: chocolate;
+      }
+      #m1:hover {
+        background-color: chocolate;
+      }
+      #m2:hover {
+        background-color: chocolate;
+      }
+      #m3:hover {
+        background-color: chocolate;
+      }
+      #m4:hover {
+        background-color: chocolate;
+      }
+      #m8:hover {
+        background-color: chocolate;
+      }
+      #m16:hover {
+        background-color: chocolate;
+      }
+    </style>
+  </head>
+  <body>
+    <center><h1>Calculator-UI by using Grid-properties</h1></center>
+    <div id="cointainer">
+      <div id="main"><h2></h2></div>
+      <div style="border-radius: 30px" id="m1"><h2>ON</h2></div>
+      <div style="border-radius: 30px" id="m2"><h2>AC</h2></div>
+      <div style="border-radius: 30px" id="m3"><h2>%</h2></div>
+      <div style="border-radius: 30px" id="m4"><h2>/</h2></div>
+      <div style="border-radius: 30px" id="m5"><h2>7</h2></div>
+      <div style="border-radius: 30px" id="m6"><h2>8</h2></div>
+      <div style="border-radius: 30px" id="m7"><h2>9</h2></div>
+      <div style="border-radius: 30px" id="m8"><h2>X</h2></div>
+      <div style="border-radius: 30px" id="m9"><h2>4</h2></div>
+      <div style="border-radius: 30px" id="m10"><h2>5</h2></div>
+      <div style="border-radius: 30px" id="m11"><h2>6</h2></div>
+      <div style="border-radius: 30px" id="m12"><h2>-</h2></div>
+      <div style="border-radius: 30px" id="m13"><h2>1</h2></div>
+      <div style="border-radius: 30px" id="m14"><h2>2</h2></div>
+      <div style="border-radius: 30px" id="m15"><h2>3</h2></div>
+      <div style="border-radius: 30px" id="m16"><h2>+</h2></div>
+      <div style="border-radius: 30px" id="m18"><h2>0</h2></div>
+      <div style="border-radius: 30px" id="m19"><h2>.</h2></div>
+      <div style="border-radius: 30px" id="m16"><h2>=</h2></div>
+    </div>
+  </body>
+</html>
